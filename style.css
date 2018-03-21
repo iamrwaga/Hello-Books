@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(DYRBZMLXcAEzEuH.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    font-size: 150px;
+
+}
+.loginbox{
+    width: 1200px;
+    height: 800px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+
+}
+
+.library{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 75px);
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 75px;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    font-weight: bold;
+
+}
+.loginbox input {
+    width: 100%;
+    height: 45px;
+    
+    margin-bottom: 20px;
+     
+}
+.loginbox input[type="Username"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px
+
+}
+.loginbox input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+.loginbox input[type="submit"] 
+{
+    border: none;
+    outline: none;
+    height: 70px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+.profilebox{
+    width: 1200px;
+    height: 800px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+}
+.profilebox p{
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    font-weight: bold;
+
+}
+.profilebox input {
+    width: 100%;
+    height: 45px;
+    
+    margin-bottom: 20px;
+     
+}
+.profilebox input[type="Username"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px
+
+}
+.profilebox input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+.profilebox input[type="submit"] 
+{
+    border: none;
+    outline: none;
+    height: 70px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.profilebox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
+.myCheckbox input[type="checkbox"] 
+{
+    width: 20px;
+    height: 20px;
+    display: block;
+    font-size: 15px;
+}
+.myCheckbox span {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: url("link_to_image");
+}
+
+.myCheckbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    
+}
+.addbookbox{
+    width: 1200px;
+    height: 850px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.addbookbox p{
+    margin: 0;
+    padding: 0;
+    font-size: 75px;
+    font-weight: bold;
+
+}
+.addbookbox input {
+    width: 100%;
+    height: 45px;
+    
+    margin-bottom: 20px;
+     
+}
+.addbookbox input[type="Bookname"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px
+
+}
+.addbookbox input[type="Author"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+.addbookbox input[type="ISBN"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+.addbookbox input[type="date"]
+{
+    border:none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 40px;
+}
+
+.addbookbox input[type="addbook"] 
+{
+    border: none;
+    outline: none;
+    height: 70px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 20px;
+}
+.addbookbox input[type="addbook"]:hover
+{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000;
+}
